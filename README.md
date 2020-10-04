@@ -7,9 +7,12 @@
 
 <br>
 I came up with the idea for this app when I started reading a paper for my machine learning class. This paper had no less than *five* acronyms on its first page, all of them made up of large words. These acronyms were defined once, and then the paper proceeded to refer to them over and over by just their letters. Trying to understand the advanced concepts presented in the paper was hard enough without having to refer back to the acronym definitions every time I saw one. ("What was DTI again? Diffusion something... Or was that DAI?") I had to search for those little definitions every two seconds, lost somewhere in the thick text. 
+
 If I had a physical print copy of the paper I could just highlight the important acronyms, but they would still be scattered throughout the pages. And this would be no help if I was reading a PDF on the laptop. Should I just try and memorize the acronyms? That might actually take less time.
+
 But what if there were a better way...
-And so I wrote this little helper program to make my research much, much easier. Now I can focus on learning the reserach, not wasting time doing a word search.
+
+And so I wrote this little helper program to make my research much, much easier. Now I can focus on learning the reserach, not wasting time doing a word search!
 
 ## Requirements:
 <ul>
@@ -58,6 +61,7 @@ Each acronym will be printed to the terminal in the order that they first appear
 <br>
 
 Paper source:
+
 S. Hu, Y. Li, and B. Li, "Video2Vec: Learning Semantic Spatial-Temporal Embeddings for Video Representation," *International Conference on Pattern Recognition*, 2016.
 
 <br>
