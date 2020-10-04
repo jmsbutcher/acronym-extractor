@@ -6,13 +6,13 @@
 </p>
 
 <br>
-I came up with the idea for this app when I started reading a paper for my machine learning class. This paper had no less than *five* acronyms on its first page, all of them made up of large words. These acronyms were defined once, and then the paper proceeded to refer to them over and over by just their letters. Trying to understand the advanced concepts presented in the paper was hard enough without having to refer back to the acronym definitions every time I saw one. ("What was DTI again? Diffusion something... Or was that DAI?") I had to search for those little definitions every two seconds, lost somewhere in the thick text. 
+I came up with the idea for this app when I started reading a paper for my machine learning class. This paper had no less than *five* acronyms on its first page, all of them made up of large words. These acronyms were defined once, and then the paper proceeded to refer to them over and over by just their letters. Trying to understand the advanced concepts presented in the paper was hard enough without having to refer back to the acronym definitions every time I saw one. ("What was DTI again? Diffusion something... Or was that DAI?") I had to search for those little definitions every two seconds, lost somewhere in the thick text. <br>
 
-If I had a physical print copy of the paper I could just highlight the important acronyms, but they would still be scattered throughout the pages. And this would be no help if I was reading a PDF on the laptop. Should I just try and memorize the acronyms? That might actually take less time.
+If I had a physical print copy of the paper I could just highlight the important acronyms, but they would still be scattered throughout the pages. And this would be no help if I was reading a PDF on the laptop. Should I just try and memorize the acronyms? That might actually take less time.<br>
 
-But what if there were a better way...
+But what if there were a better way...<br>
 
-And so I wrote this little helper program to make my research much, much easier. Now I can focus on learning the reserach, not wasting time doing a word search!
+And so I wrote this little helper program to make my research much, much easier. Now I can focus on learning the reserach, not wasting time doing a word search!<br>
 
 ## Requirements:
 <ul>
@@ -56,6 +56,10 @@ Each acronym will be printed to the terminal in the order that they first appear
 
 - Due to the difficulty in translating from the PDF format, some acronyms will not come out properly.
 - The way the program finds the acronyms' definitions means that it may not capture the full first word, especially if the definitions do not use capital letters. You may need to refer to the paper itself to get the exact definitions.
+
+#### Future work:
+
+- I plan to implement computer vision in the next version of this app. The program will scan the document as an image, thus avoiding the problems mentioned above.
 
 <br>
 <br>
