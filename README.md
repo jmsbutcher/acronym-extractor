@@ -1,6 +1,7 @@
 # Acronym Extractor - (Basic Text Processing Version)
 ### A simple python app that extracts all the acronyms and their corresponding meanings from a PDF file and prints them neatly for easy reference while reading.
 
+
 <br>
 
 ## Requirements:
@@ -23,9 +24,25 @@ or ```python3 acronym_extractor.py``` if python 3 is not your default version.
 
 # Usage:
 
+<ol>
+  <li>Download the paper you want to read into your current working directory. Give it a simple name.</li>
+
+  <li>Run the command ```python acronym_extractor.py```</li>
+
+  <li>You will be prompted with: ```Enter the PDF file name:```</li>
+
+  <li>Type in the name of the file. Be sure to include ".pdf" at the end.</li>
+</ol>
+
+<br>
+The program will scan the contents of the file and compile a list of all the acronyms and their associated meanings.
+Each acronym will be printed to the terminal in the order that they first appear in the paper, labelled by page number.
+
+#### Note:
+
+- Due to the difficulty in translating from the PDF format, some acronyms will not come out properly.
+- The way the program finds the acronyms' definitions means that it may not capture the full first word, especially if the definitions do not use capital letters. You may need to refer to the paper itself to get the exact definitions.
 
 
-### The GUI Interface
-Once you run the command `python game.py`, this GUI should pop up:
 
 
