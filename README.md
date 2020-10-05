@@ -10,7 +10,7 @@ I came up with the idea for this app when I started reading a paper for my machi
 
 If I had a physical print copy of the paper I could just highlight the important acronyms, but they would still be scattered throughout the pages. And this would be no help if I was reading a PDF on the laptop. Should I just try and memorize the acronyms? That might actually take less time.<br>
 
-But what if there were a better way...<br>
+To paraphrase Raymond Hettinger, there had to be a better way!<br>
 
 And so I wrote this little helper program to make my research much, much easier. Now I can focus on learning the reserach, not wasting time doing a word search!<br>
 
