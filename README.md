@@ -49,16 +49,13 @@ The program will scan the contents of the file and compile a list of all the acr
 Each acronym will be printed to the terminal in the order that they first appear in the paper, labelled by page number.
 
 <br>
+<br>
 
 <p align="center">
   <img src="https://github.com/jmsbutcher/acronym-extractor/blob/main/Images/command_line_1.png">
 </p>
 
-<br>
-
 You can now copy and paste the output into a small notepad on your desktop for easy reference.
-
-<br>
 
 #### Note:
 
