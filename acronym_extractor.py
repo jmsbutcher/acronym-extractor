@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Sep 25 18:37:03 2020
+Last updated: Jun 29, 2025
+    - Added support for PyPDF2 v3.0.0+.
 
 @author: JamesButcher
 
@@ -11,7 +13,7 @@ referring to where they first appear in the paper for easy reference.
 
 - You must input the exact name of the PDF.
 - The PDF must be in the same folder as this program.
-       
+
 """
 
 import PyPDF2
@@ -24,12 +26,12 @@ acronyms = dict()
 filename = input("Enter the PDF file name:")
 filepath = Path.cwd() / filename
 with open(filepath, 'rb') as file:
-    pdf_reader = PyPDF2.PdfFileReader(file)
-    page_count = pdf_reader.numPages
+    pdf_reader = PyPDF2.PdfReader(file)
+    page_count = len(pdf_reader.pages)
     
     for page_number in range(page_count):
-        page_object = pdf_reader.getPage(page_number)
-        page_text = page_object.extractText()
+        page_object = pdf_reader.pages[page_number]
+        page_text = page_object.extract_text()
         
         for i in range(len(page_text)):
             origin = i
